@@ -6,6 +6,7 @@ public class Library {
     boolean running = true;
     Scanner scanner = new Scanner(System.in);
 
+    // LIBRARY MENU LOOP
     public void startLibrary() {
         while (running) {
             System.out.println("Welcome to the library.");

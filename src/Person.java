@@ -2,12 +2,13 @@ public class Person {
  private String name;
  private String id;
 
+ // CONSTRUCTORS
  public Person(String name, String id) {
      this.name = name;
      this.id = id;
  }
 
- // GETTERS AND SETTERS FOR NAME AND ID
+ // GETTERS AND SETTERS
  public String getName() {
      return name;
  }

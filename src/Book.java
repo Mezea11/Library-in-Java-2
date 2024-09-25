@@ -4,8 +4,7 @@ public class Book {
     public String ISBN;
     public boolean isAvailable;
 
-
-
+    // CONSTRUCTORS
     public Book(String title, String author, String ISBN) {
         this.title = title;
         this.author = author;
@@ -13,6 +12,7 @@ public class Book {
         this.isAvailable = true;
     }
 
+    // GETTERS
     public String getAuthor() {
         return author;
     }
@@ -26,7 +26,7 @@ public class Book {
         return isAvailable;
     }
 
-
+  // SETTERS
     public void setTitle(String title) {
         this.title = title;
     }
